@@ -1,0 +1,30 @@
+.AddPlayer {
+  margin: 0 auto;
+  width: 350px;
+  margin-bottom: 20px;
+}
+
+.AddPlayer__submit {
+  
+  border-radius: 20%;
+  border: none;
+  height: 40px;
+  line-height: 40px;
+  width: auto;
+  font-size: 28px;
+  float: right;
+  background: #4286f4;
+  text-align: center;
+  box-shadow: 1px 2px;
+}
+
+.AddPlayer__input {
+  height: 40px;
+  width: 250px;
+  background: #adb2ba;
+  font-size: 22px;
+  border: none;
+  border: 1px solid #486da8;;
+  text-align: center;
+  box-shadow: 1px 2px;
+}

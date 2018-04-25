@@ -1,0 +1,71 @@
+.Player {
+  list-style-type: none;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.Player__name {
+  float: left;
+  background: #3567c4;
+  padding: 5px;
+  border: 1px solid #486da8;
+  border-radius: 10%;
+  box-shadow: 1px 2px;
+  min-width: 250px;
+  min-height: 30px;
+}
+
+.Player::before,
+.Player::after {
+	clear: both;
+	content: "";
+	display: table;
+}
+
+.Player__button, .Player__score {
+  margin-right: 10px;
+  border: 1px solid #486da8;
+  border-radius: 40%;
+  box-shadow: 1px 2px;
+  height: 40px;
+  font-size: 28px;
+  line-height: 40px;
+  width: 40px;
+  float: right;
+  text-align: center;
+  cursor: pointer;
+}
+
+.plus {
+  background: #19ba03;
+}
+
+.plus:hover {
+  background: #79d813
+}
+.minus {
+  background: #f42004;
+}
+
+.minus:hover {
+  background: #f24632;
+}
+
+.Player__score {
+  background: #c67b19;
+  border-radius: 10% ;
+  cursor: text;
+}
+
+.remove {
+  background: #191818;
+  font-size: 16px;
+  color: white;
+  margin-left: 50px;
+}
+
+.remove:hover {
+  background: #6d6a6a;
+  color: white;
+}
+
